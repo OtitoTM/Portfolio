@@ -218,6 +218,8 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-weight: 300;
     margin-bottom: 20px;
+    color: #ababab;
+    line-height: 1.6;
 }
 .work a{
     text-decoration: none;
@@ -225,11 +227,22 @@ nav ul li a:hover::after{
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+    position: relative;
+    transition: color 0.3s ease;
+}
+.work a:hover{
+    color: #ff004f;
 }
 .work:hover{
     background: #ff004f;
     transform: translateY(-10px);
 }
-.layer{
-    display: none;
+.work:hover h3{
+    color: #fff;
+}
+.work:hover p{
+    color: #fff;
+}
+.work:hover a{
+    color: #fff;
 }
