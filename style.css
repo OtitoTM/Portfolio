@@ -223,15 +223,22 @@ nav ul li a:hover::after{
 }
 .work a{
     text-decoration: none;
-    color: #fff;
-    font-size: 12px;
+    color: #ff004f;
+    font-size: 18px;
     margin-top: 20px;
     display: inline-block;
-    position: relative;
-    transition: color 0.3s ease;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s ease;
 }
 .work a:hover{
-    color: #ff004f;
+    background: #ff004f;
+    color: #fff;
+    transform: scale(1.1);
 }
 .work:hover{
     background: #ff004f;
@@ -244,5 +251,6 @@ nav ul li a:hover::after{
     color: #fff;
 }
 .work:hover a{
-    color: #fff;
+    background: #fff;
+    color: #ff004f;
 }
